@@ -11,3 +11,11 @@ let hex = 0x7b; //16진수
 console.log(binary);
 console.log(octal);
 console.log(hex);
+
+console.log(0 / 123); //0
+console.log(123 / 0); //infinity
+console.log(-123 / 0); //-infinity
+console.log(123 / "text"); //NaN(Not a Number)
+
+let BigInt = 12345567890123455678901234556789012345567890n;
+console.log(BigInt);
